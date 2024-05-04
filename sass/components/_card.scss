@@ -9,6 +9,11 @@
   margin: 2.5rem 5rem;
   font-size: 1.6rem;
 
+  @include respond(phone) {
+    padding: 2rem;
+    margin: 0.5rem 1.5rem;
+  }
+
   &__header {
     display: flex;
     align-items: center;
