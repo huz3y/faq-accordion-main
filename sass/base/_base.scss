@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; //1rem = 10px
+}
+
+body {
+  box-sizing: border-box;
+  min-height: 100vh;
+  background-color: var(--color-light-pink);
+  background-image: url("/assets/images/background-pattern-desktop.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

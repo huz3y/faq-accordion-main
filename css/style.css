@@ -1,0 +1,100 @@
+:root {
+  --color-dark-purple: hsl(292, 42%, 14%);
+  --color-grayish-purple: hsl(292, 16%, 49%);
+  --color-light-pink: hsl(275, 100%, 97%);
+  --color-white: hsl(0, 0%, 100%);
+  --font-primary: "Work Sans", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  min-height: 100vh;
+  background-color: var(--color-light-pink);
+  background-image: url("/assets/images/background-pattern-desktop.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  color: var(--color-dark-purple);
+  font-family: var(--font-primary);
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.card {
+  max-width: 60rem;
+  min-height: 45.38rem;
+  background-color: var(--color-white);
+  border-radius: 15px;
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  padding: 4rem;
+  margin: 2.5rem 5rem;
+  font-size: 1.6rem;
+}
+.card__header {
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+.card__icon {
+  padding-right: 2.5rem;
+}
+.card__FAQ {
+  display: grid;
+  grid-template-rows: repeat(4, min-content);
+}
+.card__FAQ:last-of-type {
+  margin-bottom: 2rem;
+}
+.card__section {
+  display: flex;
+  flex-direction: column;
+}
+.card__question {
+  display: flex;
+  align-items: center;
+  padding: 0.3rem 0 0.5rem 0;
+}
+.card__q {
+  font-size: 1.6rem;
+  margin-right: auto;
+  padding-right: 2rem;
+}
+.card__question-icon, .card__question-icon-2 {
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: auto;
+}
+.card__a {
+  margin-top: 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.hr {
+  opacity: 0.2;
+  margin: 3rem 0.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
