@@ -57,6 +57,46 @@
   &__a {
     margin-top: 2rem;
   }
+
+  &__section--one:hover &__q1,
+  &__section--four:active &__q4 {
+    color: var(--color-grayish-purple);
+  }
+
+  &__section--two:hover &__q2,
+  &__section--four:active &__q4 {
+    color: var(--color-grayish-purple);
+  }
+
+  &__section--three:hover &__q3,
+  &__section--four:active &__q4 {
+    color: var(--color-grayish-purple);
+  }
+
+  &__section--four:hover &__q4,
+  &__section--four:active &__q4 {
+    color: var(--color-grayish-purple);
+  }
+
+  &__section--one:hover,
+  &__section--one:active {
+    cursor: pointer;
+  }
+
+  &__section--two:hover,
+  &__section--one:active {
+    cursor: pointer;
+  }
+
+  &__section--three:hover,
+  &__section--one:active {
+    cursor: pointer;
+  }
+
+  &__section--four:hover,
+  &__section--one:active {
+    cursor: pointer;
+  }
 }
 
 .hidden {

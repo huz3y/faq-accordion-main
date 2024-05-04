@@ -87,6 +87,30 @@ body {
 .card__a {
   margin-top: 2rem;
 }
+.card__section--one:hover .card__q1, .card__section--four:active .card__q4 {
+  color: var(--color-grayish-purple);
+}
+.card__section--two:hover .card__q2, .card__section--four:active .card__q4 {
+  color: var(--color-grayish-purple);
+}
+.card__section--three:hover .card__q3, .card__section--four:active .card__q4 {
+  color: var(--color-grayish-purple);
+}
+.card__section--four:hover .card__q4, .card__section--four:active .card__q4 {
+  color: var(--color-grayish-purple);
+}
+.card__section--one:hover, .card__section--one:active {
+  cursor: pointer;
+}
+.card__section--two:hover, .card__section--one:active {
+  cursor: pointer;
+}
+.card__section--three:hover, .card__section--one:active {
+  cursor: pointer;
+}
+.card__section--four:hover, .card__section--one:active {
+  cursor: pointer;
+}
 
 .hidden {
   display: none;
