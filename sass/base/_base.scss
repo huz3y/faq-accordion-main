@@ -33,9 +33,7 @@ body {
   background-image: url("/assets/images/background-pattern-desktop.svg");
   background-size: 100%;
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
 
   @include respond(phone) {
     background-image: url("/assets/images/background-pattern-mobile.svg");
