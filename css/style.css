@@ -64,6 +64,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+@media only screen and (max-width: 37.5em) {
+  body {
+    background-image: url("/assets/images/background-pattern-mobile.svg");
+  }
+}
 
 body {
   color: var(--color-dark-purple);
